@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/inventario_equipos.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inventario de Equipos Biomédicos</title>
+</head>
+<body>
+
+    <h1>Inventario de Equipos Biomédicos</h1>
+
+    <table border="1">
+        <thead>
+            <tr>
+                <th colspan="2">Identificación del Equipo</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><strong>ID o código interno</strong></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td><strong>Nombre del equipo</strong></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td><strong>Marca</strong></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td><strong>Modelo</strong></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td><strong>Número de serie</strong></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td><strong>Código patrimonial o de inventario</strong></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td><strong>Tipo de equipo</strong></td>
+                <td></td>
+            </tr>
+        </tbody>
+
+        <thead>
+            <tr>
+                <th colspan="2">Ubicación y Responsable</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><strong>Área/departamento asignado</strong></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td><strong>Ubicación específica</strong></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td><strong>Responsable del equipo</strong></td>
+                <td></td>
+            </tr>
+        </tbody>
+
+        <thead>
+            <tr>
+                <th colspan="2">Información Técnica</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><strong>Fabricante</strong></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td><strong>Año de fabricación</strong></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td><strong>Fecha de compra/adquisición</strong></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td><strong>Vida útil estimada</strong></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td><strong>Proveedor o distribuidor</strong></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td><strong>Voltaje y consumo</strong></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td><strong>Manuales disponibles</strong></td>
+                <td></td>
+            </tr>
+        </tbody>
+
+        <thead>
+            <tr>
+                <th colspan="2">Estado y Operatividad</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><strong>Estado actual</strong></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td><strong>Fecha de última revisión técnica</strong></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td><strong>Fecha de última calibración</strong></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td><strong>Frecuencia de mantenimiento</strong></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td><strong>Historial de mantenimientos</strong></td>
+                <td>(Ver tabla de Trazabilidad de Mantenimiento)</td>
+            </tr>
+            <tr>
+                <td><strong>Observaciones del técnico o usuario</strong></td>
+                <td></td>
+            </tr>
+        </tbody>
+
+        <thead>
+            <tr>
+                <th colspan="2">Información Administrativa</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><strong>Costo de adquisición</strong></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td><strong>Número de factura</strong></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td><strong>Contrato de mantenimiento vigente</strong></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td><strong>Nombre de la empresa mantenedora</strong></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td><strong>Fecha de vencimiento del contrato</strong></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td><strong>Garantía vigente</strong></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td><strong>Fecha de vencimiento de garantía</strong></td>
+                <td></td>
+            </tr>
+        </tbody>
+
+        <thead>
+            <tr>
+                <th colspan="2">Documentos Adjuntos (Digital)</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><strong>Factura de compra (PDF)</strong></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td><strong>Contrato de mantenimiento</strong></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td><strong>Manual de usuario</strong></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td><strong>Manual técnico</strong></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td><strong>Reportes técnicos</strong></td>
+                <td></td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>Trazabilidad de Mantenimiento (Tabla Relacionada)</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>ID de Mantenimiento</th>
+                <th>Fecha de Solicitud</th>
+                <th>Tipo de Mantenimiento</th>
+                <th>Falla Reportada</th>
+                <th>Acciones Realizadas</th>
+                <th>Técnico Responsable</th>
+                <th>Fecha de Resolución</th>
+                <th>Tiempo de Inactividad</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            </tbody>
+    </table>
+
+</body>
+</html>
