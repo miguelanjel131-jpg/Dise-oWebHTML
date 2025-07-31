@@ -1,8 +1,34 @@
-#BarraSup {
-width: 200px;
-overflow: hidden;
-display: flex;
-align-items: center;
-justify-content: center;
-object-fit: contain; 
+body{
+  background-color: #d8ecf8;
+}
+#menuSup {
+  height: 40px;
+  display: flex;
+  align-items: center; /* Alinea el contenido al centro horizontalmente (ya que de manera predeteriminada los apila verticalmente)*/
+  justify-content: flex-start; /* flex-star (alinea todo al comienzo de la pagina {izquierda} flex-end{derecha} espace-between{maximo espacio en cada elemento}*/
+  padding: 10px 20px;
+  gap: 10px;
+}
+
+.logo img {
+  width: 200px;
+  display: block;
+  object-fit: cover; /*Recorta la imagen para que ocupe el espacio establecido como altura (height) y ancho (width)*/
+  /*Cover (recorta la imagen para que se ajuste al contenedor) contain (se ajusta al contenedor sin recortarse) fill(la imagen se ajusta al contenedor deformandose) */   
+}
+
+.links {
+  display: flex;
+  gap: 20px;
+}
+
+#menuSup h3 {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+}
+
+#menuSup a {
+  text-decoration: none;
+  color: rgb(20, 20, 20);
 }
