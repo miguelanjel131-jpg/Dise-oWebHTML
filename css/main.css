@@ -1,8 +1,15 @@
-body{
+@import url("responsive.css");
+@import url("normalize.css");
+@import url("typography.css");
+@import url("layout.css");
+@import url("utilities.css");
+@import url("colors.css");
+
+#bodyIndex{
   background-color: #d8ecf8;
   font-family: sans-serif;
 }
-#menuSup {
+.menuSup{
   height: 40px;
   display: flex;
   align-items: center; /* Alinea el contenido al centro horizontalmente (ya que de manera predeteriminada los apila verticalmente)*/
