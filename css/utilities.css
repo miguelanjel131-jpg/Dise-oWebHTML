@@ -1,6 +1,22 @@
+@keyframes rebote {
+   0%   { transform: translate(0, 0); }
+      25%  { transform: translate(-200px, 0);background-color: rgb(255, 91, 15); }    /* Derecha */
+      50%  { transform: translate(-200px, 200px); }/* Abajo */
+      75%  { transform: translate(0, 200px);  background-color: rgb(55, 229, 61);}    /* Izquierda */
+      100% { transform: translate(0, 0); }   
+    
+    
+    
+}
 #circulito{
 width: 200px;
 height: 200px;
  border-radius:100%;
  background-color: rgb(55, 229, 61);
+ animation-name: rebote;
+ animation-duration: 5s;
+ animation-iteration-count: infinite;
+ margin-top: 200px;
+ margin-left: 200px;
+
 }
